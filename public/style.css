@@ -2,10 +2,6 @@ body{
     font-family: "Roboto", sans-serif;
     margin: 0px;
 }
-a{
-    text-decoration: none;
-    color: white;
-}
 
 header{
     height: 100px;
@@ -14,11 +10,14 @@ header{
     color: white;
     background-color: #1F2937;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 main{
     height: 900px;
 }
+
 
 footer{
     color: white;
@@ -27,21 +26,50 @@ footer{
     padding: 10px;
 }
 
-header > h1{
-    padding: 20px;
-    font-size: 24px;
-}
-
-header > ul{
-    margin-top: 20px;
+#main-section-one{
+    height: 400px;
+    background-color: #1F2937;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
 }
 
-header > ul > li{
-    padding: 20px;
-    list-style-type: none;
+#section-one-left > h1{
+    font-size: 48px;
+    color: white;
+    margin: 0px;
+
+}
+#section-one-left > p{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 0px;
 }
 
-#header-space{
-    width: 40%;
+#section-one-left > button{
+    height: 50px;
+    width: 150px;
+	background-color:#3d94f6;
+    color: white;
+	border-radius:6px;
+    font-size: 18px;
+}
+
+
+#section-one-right > img{
+    height: 200px;
+    width: 350px;
+}
+
+.header-links > *{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.header-links > * > * > a{
+    text-decoration: none;
+    color: white;
 }
