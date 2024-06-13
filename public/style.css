@@ -14,11 +14,6 @@ header{
     justify-content: space-evenly;
 }
 
-main{
-    height: 900px;
-}
-
-
 footer{
     color: white;
     background-color: #1F2937;
@@ -57,10 +52,88 @@ footer{
     font-size: 18px;
 }
 
-
 #section-one-right > img{
     height: 200px;
     width: 350px;
+}
+
+#main-section-two > h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #1F2937;
+    text-align: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+}
+
+#section-two-boxes{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+#section-two-boxes > * > p{
+    text-align: center;
+    font-size: 18px
+}
+#section-two-boxes > * > img{
+    border-radius: 10%;
+    height: 200px;
+    width: 200px;
+}
+
+#main-section-three{
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#main-section-three > p{
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    text-align: center;
+}
+#main-section-three > h3{
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
+}
+
+#main-section-four{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    justify-content: center;
+    gap: 50px;
+    border-radius: 10px;
+}
+
+#main-section-four > * > h5{
+    margin-top: 0px;
+}
+
+#main-section-four > button{
+    width: 100px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+    background-color: #3882f6;
+}
+#section-four-upper-space,
+#section-four-bottom-space{
+    height: 50px;
+    background-color: white;
 }
 
 .header-links > *{
